@@ -1,0 +1,172 @@
+{
+	"meta":
+		{
+			"tocdesVersion":"0.1.0"
+		},
+	"course":
+		{
+			"cuid" : "fa432ad267594e13912accb3b1f7f159",
+			"title" : "My Simple Course",
+			"shortDescription" "The fundamental concepts of the work and life balance for students, workers and managers"
+			"prerequisites" : 
+				[
+					{
+						"prereqNum" : 0,
+						"prereqTitle" : "Learning How to Learn: Powerful mental tools to help you master tough subjects",
+						"prereqRef" : "https://www.coursera.org/learn/learning-how-to-learn"
+					},
+					{
+						"prereqNum" : 1,
+						"prereqTitle" : "The Science of Success: What Researchers Know that You Should Know",
+						"prereqRef" : "https://www.coursera.org/learn/success"
+					}
+				],
+			"requirements" : 
+				[
+					{
+						"reqNum" : 0,
+						"reqTitle" : "PC or Mac",
+						"reqSpecs" : [{"cpu":"Intel Core i7"},{"keyboard":"any wired"},{"mouse":"any wired"}]
+					},
+					{
+						"reqNum" : 1,
+						"reqTitle" : "Web Browser",
+						"reqSpecs" : [{"Google Chrome":"v75"},{"Mozilla Firefox":"v72"}]
+					}
+				],
+			"lang" : "en-En",
+			"authors" : 
+				[
+					{
+						"num" : 0,
+						"name" : "Leonid Lapidus",
+						"status" : "MScM, Product manager",
+						"company" : "Sole IT",
+						"contacts" : "leonidlapidus.com",
+						"other" : {}
+					},
+					{
+						"num" : 1,
+						"name" : "Yulia Lapidus",
+						"status" : "Project manager",
+						"company" : "Sole IT",
+						"contacts" : "",
+						"other" : {}
+					}
+				],
+			"lecturers" : 
+				[
+					{
+						"num" : 0,
+						"name" : "Leonid Lapidus",
+						"status" : "MScM, Product manager",
+						"company" : "Sole IT",
+						"contacts" : "leonidlapidus.com",
+						"other" : {}
+					}
+				],
+			"courseCurators" : 
+				[
+					{
+						"num" : 0,
+						"name" : "Yulia Lapidus",
+						"status" : "Project manager",
+						"company" : "Sole IT",
+						"contacts" : "",
+						"other" : {}
+					}
+				],
+			"url" : "http://example.com/courses/the-simple-course-12345",
+			"duration" : "12 w",
+
+			"partsVisibility" : "all",
+			"parts" : 
+				[
+					{
+						"num" : 0,
+						"title" : "The Capstone",
+						"shortDescription" : "About the main ideas",
+						"duration" : "2 w",
+						"mustBeCompletedInTime" : true,
+						"extraDuration" : "1 w",
+						"modulesVisinility" : "all",
+
+						"modules" : 
+							[
+								{
+									"num" : 0,
+									"title" : "The Dawn Age",
+									"shortDescription" : "Lets start from the scratch",
+									"duration" : "1 w",
+									"mustBeCompletedInTime" : false,
+									"lessonsVisiblity" : "onebyone",
+
+									"lessons" : 
+										[
+											{
+												"num" : 0,
+												"title" : "Lesson 1. Definitions",
+												"shortDescription" : "We will discuss on the terms",
+												"duration" : "3 d",
+												"mustBeCompletedInTime" : false,
+												"materials" : 
+													[
+														{
+															"num" : 0,
+															"type" : "videoLecture",
+															"title" : "",
+															"description" : "",
+															"contentRef" : "https://youtu.be/1wfx74_p6A4"
+														},
+														{
+															"num" : 1,
+															"type" : "text",
+															"title" : "",
+															"description" : "",
+															"contentRef" : "db://course-12345/part-0/module-0/lesson-0/text.md"
+														}
+													],
+												"tasks" : 
+													[
+														{
+															"num" : 0,
+															"title" : "First task",
+															"description" : "Please pass the test",
+															"assessment" : 
+																{
+																	"required" : true,
+																	"type" : "marks",
+																	"hiMarks" : "100",
+																	"passedMarks" : "80"
+																},
+															"type" : "test",
+															"testData" : {},
+															"attempts" : "infinity"
+														},
+														{
+															"num" : 1,
+															"title" : "Second task",
+															"description" : "Upload the file with the essay",
+															"assessment" : 
+																{
+																	"required" : true,
+																	"type" : "setoff",
+																	"hiMarks" : "100",
+																	"passedMarks" : "80"
+																},
+															"type" : "file",
+															"fileType" : "any",
+															"maxFileSize" : "5 M",
+															"attempts" : "2",
+															"addOneMoreAttempt" : true
+														}
+													]
+											}
+										]
+								}
+							]
+					}
+
+				]
+		}
+}
